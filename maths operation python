@@ -1,0 +1,36 @@
+class maths:
+    def operation(self,a,b):
+           
+
+
+        print('Enter 1 for choice devide\n')
+
+        print('Enter 2 for choice add\n')
+
+        print('Enter 3 for choice substract\n')
+    
+        print('Enter 3 for choice multiply\n')
+
+        choice = int(input('Enter your choice:'))
+    
+
+        if (choice == 1):
+            
+        
+            print(a/b)
+        elif (choice ==2):
+            print(a+b)
+        elif(choice ==3):
+            print(a-b)
+        elif(choice ==4):
+            print(a*b)
+
+
+        else:
+            print('Invalid choice')
+
+ob1=maths()
+x=int(input())
+y=int(input())
+
+ob1.operation(x,y)
